@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="fill-up-stylesheet.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="2115961.png" type="image/x-icon">
+	
+</head>
+<body>
+    <div class="wrapper" style=" background-color:#f9f9f4;">
+        <h2>Payment Form</h2>
+		<form action="MessageForm.html">
+<!------------					Account Information Start							----------->
+            <h4>Contact Info</h4>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="Full Name" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+				
+                <div class="input_box">
+                    <input type="text" placeholder="Contact Number" required class="name">
+					<i class="fa fa-user icon"></i>
+                </div>
+            </div>
+
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="email" placeholder="Email Address" required class="name">
+                    <i class="fa fa-envelope icon"></i>
+                </div>
+            </div>
+			
+			
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="Address" required class="name">
+                    <i class="fa fa-map-marker icon" area-hidden="true"></i>
+                </div>
+				
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="City" required class="name">
+                    <i class="fa fa-institution icon" ></i>
+                </div>
+            </div>
+            <!--Account Information End-->
+
+
+            <!--DOB & Gender Start-->
+            <div class="input_group">
+                
+                <div class="input_box" style="padding-bottom: 15px;">
+                    <h4>Gender</h4>
+                    <input type="radio" name="gender" class="radio" id="b3">
+                    <label for="b3">Male</label>
+                    <input type="radio" name="gender" class="radio" id="b4">
+                    <label for="b4">Female</label>
+                </div>
+				<div class="input_box" style="padding-bottom: 15px;">
+                    <h4>Payment method</h4>
+                    <input type="radio" name="payment" class="radio" id="b1">
+                    <label for="b1">Cash On Delivery </label>
+                    <input type="radio" name="payment" class="radio" id="b2">
+                    <label for="b2">Online Payment</label>
+					
+                </div>
+            </div>
+            <!--DOB & Gender End-->
+
+
+            <!--Payment Details Start-->
+            <div class="input_group">
+                <div class="input_box">
+                    <h4>Payment Details</h4>
+                    <input type="radio" name="pay" class="radio" id="bc1">
+                    <label for="bc1"><span>
+                            <i></i>Gcash</span></label>
+                    <input type="radio" name="pay" class="radio" id="bc2">
+                    <label for="bc2"><span>
+                            <i></i>PayMaya</span></label>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="tel" name="" class="name" placeholder="GCash 000-1111-2222">
+                    <i class="fa fa-credit-card icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="tel" name="" class="name" placeholder="PayMaya 000-0000-0000">
+                    <i class="fa fa-credit-card icon"></i>
+                </div>
+            </div>
+            
+            <!--Payment Details End-->
+
+            <div class="input_group">
+                <div class="input_box" style="padding: 0px 150px;">
+                   <a href="MessageForm.html"><button type="submit">Place Order</button></a>
+                </div>
+            </div>
+    </div>
+</form>
+</body>
+
+</html>
